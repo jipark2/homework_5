@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- styles -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Arvo|Sacramento&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bun Bun Bakeshop</title>
+        <meta charset="UTF-8">
+    </head>
+
+
+    <body>
+        <header>
+            <a class="logo" href="index.html">Bun Bun Bakeshop</a>
+            <!-- Navigation bar  -->
+            <nav class="navbar">
+                <a id = "about" href="about.html">About Us</a>
+                <a id="ourrolls" href="rolls.html">Browse</a>
+                <a id ="contact" href="contactus.html">Contact Us</a>
+                <a id = "shop" href="cart.html">
+                    <img id = "cartimg" src="images/cart.png">
+                    <input type="text" id="inc" value="0"></input>
+                </a>
+            </nav>
+        </header>
+        <div class="title">
+            <h1>Browse All Buns</h1>
+        </div>
+        <!-- Gallery of Images for Cinnamon Buns -->
+        <div class="gallery">
+            <div>
+                <a href="product.html" id="Original" onclick="clickBun(this.id)">
+                    <figure class="item">
+                        <img alt="original" src="images/original.jpeg">
+                        <figcaption>Original Cinnamon Roll</figcaption>
+                    </figure>
+                </a>
+            </div>
+                        <div>
+                <a href="" id="Gluten" onclick="clickBun(this.id)">
+                    <figure class="item">
+                        <img alt="gluten-free" src="images/gluten-free.jpeg">
+                        <figcaption>Gluten-free Cinnamon Roll</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div>
+                <a href="" id="Pumpkin" onclick="clickBun(this.id)">
+                    <figure class="item">
+                        <img alt="pumpkin spice" src="images/pumpkin-spice.jpeg">
+                        <figcaption>Pumpkin Spice Cinnamon Roll</figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="column">
+                <a href="" id="Blackberry" onclick="clickBun(this.id)">
+                    <figure class="item">
+                        <img alt="blackberry" src="images/blueberry.jpeg">
+                        <figcaption>Blackberry Cinnamon Roll</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div>
+                <a href="" id="Caramel" onclick="clickBun(this.id)">
+                    <figure class="item">
+                        <img alt="caramel pecan" src="images/caramel-pecan.jpeg">
+                        <figcaption>Caramel Pecan Cinnamon Roll</figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div>
+                <a href="" id="Walnut" onclick="clickBun(this.id)">
+                    <figure class="item">
+                        <img alt="walnut" src="images/walnutbun.jpeg">
+                        <figcaption>Walnut Cinnamon Roll</figcaption>
+                    </figure>
+                </a>
+            </div>
+        </div>
+
+
+</html>

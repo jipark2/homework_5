@@ -153,7 +153,6 @@ body { /*general body*/
 }
 
 .title{ /*title in product browsing page*/
-    background-color: #F2E0CA;
     text-align: center;
     font-size: 20px;
     padding: 5px 0px;
@@ -169,13 +168,13 @@ body { /*general body*/
 }
 
  .item{
-    position: relative;
+    position: center;
     margin: 0;
     padding-top: 5%;
     padding-bottom: 5%;
  }
 
- .item img {
+ .item img{
   height: auto;
   width: 100%;
   object-fit: cover;
@@ -241,14 +240,14 @@ body { /*general body*/
 }
 
 .cart button{ /*add to cart section*/
-    background-color: #D59E5D;
+    background-color: #3A86FF;
     width: 100%;
     height: 50px;
     border-radius: 8px;
 }
 
 .cart button:hover{ /*add to cart section*/
-    background-color: #ad7f47;
+    background-color: #3A86FF;
     width: 100%;
     height: 50px;
     border-radius: 8px;
@@ -266,7 +265,7 @@ body { /*general body*/
 }
 
 .bottom hr{ /*line as dividers */
-    border: 1px solid #D59E5D;
+    border: 1px solid #3A86FF;
 }
 
 details{
@@ -324,68 +323,3 @@ details p{
     font-family: 'Sacramento', cursive;
     font-size: 26px;
 }
-
-/*Cart page*/
-
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-.cart-body table {
-  border-collapse: collapse;
-  width: 60%;
-}
-
-.cart-body{
-    padding: 5% 0% 5% 10%;
-    -ms-flex: 50%; /* IE10 */
-    flex: 50%;
-}
-
-th{
-  padding: 8px;
-  text-align: left;
-  border-bottom: 2px solid #D59E5D;
-}
-
-.cart-body td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
-
-tr:hover {
-    background-color: #f5f5f5;
-}
-
-
-.checkout input{ /*add to cart section*/
-    background-color: #D59E5D;
-    color: white;
-    font-size: 16px;
-    width: 100%;
-    height: 50px;
-    border-radius: 8px;
-    font-family: 'Arvo', serif;
-}
-
-.summary{
-    width: 300px;
-    background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-    margin: 0;
-}
-
-.order {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  padding: 5%  10% 5% 0%;
-}
-
-.price{
-    f
