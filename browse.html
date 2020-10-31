@@ -6,9 +6,11 @@
         <link href="https://fonts.googleapis.com/css?family=Arvo|Sacramento&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bun Bun Bakeshop</title>
+        <script src="main.js" type="text/javascript"></script>
         <meta charset="UTF-8">
     </head>
 
+    <body class="prod" onload="loadProdPage()">
 
     <body>
         <header>
@@ -16,10 +18,11 @@
             <!-- Navigation bar  -->
             <nav class="navbar">
                 <a id = "about" href="about.html">About Us</a>
-                <a id="ourrolls" href="rolls.html">Browse All Buns</a>
+                <a id="ourrolls" href="browse.html">Browse All Buns</a>
                 <a id ="contact" href="contactus.html">Contact Us</a>
                 <a id = "shop" href="cart.html">
                     <img id = "cartimg" src="images/cart.png">
+                    <input type="text" id="inc" value="0"></input>
                 </a>
             </nav>
         </header>
@@ -42,7 +45,7 @@
                 </a>
             </div>
                         <div>
-                <a href="" id="Gluten" onclick="clickBun(this.id)">
+                <a href="product.html" id="Gluten" onclick="clickBun(this.id)">
                     <figure class="item">
                         <img alt="gluten-free" src="images/gluten-free.jpeg">
                         <figcaption>Gluten-free Cinnamon Roll</figcaption>
@@ -54,7 +57,7 @@
                 </a>
             </div>
             <div>
-                <a href="" id="Pumpkin" onclick="clickBun(this.id)">
+                <a href="product.html" id="Pumpkin" onclick="clickBun(this.id)">
                     <figure class="item">
                         <img alt="pumpkin spice" src="images/pumpkin-spice.jpeg">
                         <figcaption>Pumpkin Spice Cinnamon Roll</figcaption>
@@ -67,7 +70,7 @@
             </div>
 
             <div class="column">
-                <a href="" id="Blackberry" onclick="clickBun(this.id)">
+                <a href="product.html" id="Blackberry" onclick="clickBun(this.id)">
                     <figure class="item">
                         <img alt="blackberry" src="images/blueberry.jpeg">
                         <figcaption>Blackberry Cinnamon Roll</figcaption>
@@ -79,7 +82,7 @@
                 </a>
             </div>
             <div>
-                <a href="" id="Caramel" onclick="clickBun(this.id)">
+                <a href="product.html" id="Caramel" onclick="clickBun(this.id)">
                     <figure class="item">
                         <img alt="caramel pecan" src="images/caramel-pecan.jpeg">
                         <figcaption>Caramel Pecan Cinnamon Roll</figcaption>
@@ -92,7 +95,7 @@
             </div>
 
             <div>
-                <a href="" id="Walnut" onclick="clickBun(this.id)">
+                <a href="product.html" id="Walnut" onclick="clickBun(this.id)">
                     <figure class="item">
                         <img alt="walnut" src="images/walnutbun.jpeg">
                         <figcaption>Walnut Cinnamon Roll</figcaption>
@@ -105,5 +108,5 @@
             </div>
         </div>
 
-
+        </body>
 </html>

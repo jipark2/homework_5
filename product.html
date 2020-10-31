@@ -16,27 +16,27 @@
             <!-- Navigation bar  -->
             <nav class="navbar">
                 <a id = "about" href="about.html">About Us</a>
-                <a id="ourrolls" href="rolls.html">Browse All Buns</a>
+                <a id="ourrolls" href="browse.html">Browse All Buns</a>
                 <a id ="contact" href="contactus.html">Contact Us</a>
                 <a id = "shop" href="cart.html">
                     <img id = "cartimg" src="images/cart.png">
+                    <input type="text" id="inc" value="0"></input>
                 </a>
             </nav>
         </header>
 
-        <!-- Image of the one product -->
+        <!-- Image  -->
         <div class="prodImg">
-            <img id= "image1" alt="Bun" src="images/original.jpeg">
+            <img id ="image1" alt="bun" src="">
         </div>
         <!-- right side with information -->
         <div class="product">
             <div class="info">
-                <h1 id="prodName">Original Cinnamon Roll</h1>
-                <p>One of our best selling rolls baked with local ingredients and baked fresh in the oven.</p>
-                <p id="prodCost">$2 per roll</p>
+                <h1 id="prodName"></h1>
+                <p id="prodCost"></p>
             </div>
-            <!-- Glaze options-->
-            <div class="glaze">
+        <!-- Glaze options-->
+        <div class="glaze">
                 <strong>Select Glaze Type:</strong>
                 <br>
                 <label for="glazeOptions">Glaze:</label>
@@ -46,10 +46,10 @@
                     <option>Chocolate</option>
                     <option>Strawberry</option>
                 </select>
-            </div>
-            <!-- Quantity options -->
-            <div class="qty">
-                <strong>Select Quantity:</strong>
+        </div>
+        <!-- Quantity options -->
+        <div class="qty">
+            <strong>Select Quantity:</strong>
                 <br> 
                 <label for="qtyOptions">Qty:</label>
                 <select id="qtyOptions" onselect="selectedQty()">
