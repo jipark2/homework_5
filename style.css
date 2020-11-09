@@ -79,7 +79,10 @@ body { /*general body*/
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 #banner-head { /*title "Made for you" in banner*/
@@ -175,6 +178,7 @@ body { /*general body*/
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 /*footer*/
 
 
@@ -208,6 +212,8 @@ footer .socials{
 
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 /*product browsing page*/
 
 #empty td{
@@ -216,7 +222,11 @@ footer .socials{
 
 .title{ /*title in product browsing page*/
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     background-color: #B5D3E7;
+=======
+    background-color: #F2E0CA;
+>>>>>>> Stashed changes
 =======
     background-color: #F2E0CA;
 >>>>>>> Stashed changes
@@ -308,7 +318,11 @@ footer .socials{
 
 .cart button{ /*add to cart section*/
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     background-color: #B5D3E7;
+=======
+    background-color: #D59E5D;
+>>>>>>> Stashed changes
 =======
     background-color: #D59E5D;
 >>>>>>> Stashed changes
@@ -319,7 +333,11 @@ footer .socials{
 
 .cart button:hover{ /*add to cart section*/
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     background-color: #B5D3E7;
+=======
+    background-color: #ad7f47;
+>>>>>>> Stashed changes
 =======
     background-color: #ad7f47;
 >>>>>>> Stashed changes
@@ -438,7 +456,11 @@ tr:hover {
 
 .checkout input{ /*add to cart section*/
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     background-color: #B5D3E7;
+=======
+    background-color: #D59E5D;
+>>>>>>> Stashed changes
 =======
     background-color: #D59E5D;
 >>>>>>> Stashed changes
