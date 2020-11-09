@@ -25,7 +25,7 @@ header{ /*general header*/
 
 a{
     text-decoration: none;
-    color: #2E1900;
+    color: #89cff0;
 }
 
  #about, #ourrolls{
@@ -49,7 +49,7 @@ a{
 
 body { /*general body*/
     font-family: 'Arvo', serif;
-    color: #2E1900;
+    color: #89cff0;
     margin: 0;
     overflow-x: hidden;  /*prevent additional whitespace on xaxis*/
 }
@@ -110,7 +110,7 @@ body { /*general body*/
 }
 
 #banner-order:hover{
-    background-color: #add8e6;
+    background-color: #89cff0;
 }
 
 
@@ -294,7 +294,7 @@ details p{
 }
 
 .rolls { /*title */
-    background-color: #F2E0CA;
+    background-color: #89cff0;
     text-align: center;
     font-size: 20px;
     padding: 5px 0px;
@@ -324,7 +324,7 @@ details p{
 }
 
 .who h3{ /*About us header*/
-    text-decoration: underline #add8e6;
+    text-decoration: underline #89cff0;
     padding: 0px;
 }
 
@@ -356,7 +356,7 @@ details p{
 th{
   padding: 8px;
   text-align: left;
-  border-bottom: 2px solid #add8e6;
+  border-bottom: 2px solid #89cff0;
 }
 
 .cart-body td {
@@ -371,7 +371,7 @@ tr:hover {
 
 
 .checkout input{ /*add to cart section*/
-    background-color: #add8e6;
+    background-color: #89cff0;
     color: white;
     font-size: 16px;
     width: 100%;
@@ -382,7 +382,7 @@ tr:hover {
 
 .summary{
     width: 300px;
-    background-color: #f2f2f2;
+    background-color: #89cff0;
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgrey;
     border-radius: 3px;
